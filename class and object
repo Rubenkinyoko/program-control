@@ -1,0 +1,32 @@
+
+ public class Human {
+ 
+   String name;
+   int age;
+   int hieghtInInches;
+   String eyeColor;
+   
+public Human(){
+
+}
+   
+   public void speak(){
+     System.out.printIn("Hello, my name is "+ name);
+      System.out.printIn("Iam "+ heightInInches +" inches tall");
+      System.out.printIn("Iam" + age + "years old");
+      System.out.printIn("My eye color is " + eyeColor");
+    }
+    
+    public void eat(){
+       System.out.printIn("eating...");
+     }
+      public void walk(){
+       System.out.printIn("walking...");
+     }
+      public void work(){
+       System.out.printIn("working...");
+     }
+     
+     }
+     
+     
